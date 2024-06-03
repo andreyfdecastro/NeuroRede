@@ -16,28 +16,25 @@ const styles = StyleSheet.create({
     height: 40, 
     backgroundColor: '#fff', 
   },
-  welcomeText: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-    color: '#fff', 
+  logo: {
+    position: 'absolute',
+    left: 10, 
   },
-  image: {
-    width: 200,
-    height: 200,
-    resizeMode: 'contain',
-    margin: 10,
+  formBox: {
+    backgroundColor: '#A9A9A9', 
+    padding: 20,
+    borderRadius: 10,
+  },
+  input: {
+    backgroundColor: '#fff', 
+    marginBottom: 10,
+    paddingLeft: 10,
+    color: '#A9A9A9', 
   },
   button: {
     backgroundColor: '#0000FF', 
     padding: 10,
-    margin: 10,
     borderRadius: 5,
-  },
-  buttonText: {
-    color: '#fff', 
-    fontSize: 20,
-    textAlign: 'center',
   },
 });
 
