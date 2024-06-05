@@ -9,6 +9,11 @@ const styles = StyleSheet.create({
       height: 30,
       marginRight: 10,
     },
+    logo: {
+      width: 50,
+      height: 50,
+      marginRight: 10,
+    },
     messageBox: {
       padding: 10,
       backgroundColor: '#f0f0f0',
@@ -20,4 +25,4 @@ const styles = StyleSheet.create({
     },
   });
 
-  export default styles;  
+  export default styles;

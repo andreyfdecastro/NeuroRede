@@ -2,26 +2,32 @@ import React from 'react';
 import { View, Text, Image } from 'react-native';
 import NeuroLogo from '../../../assets/neuroLogo.png';
 
-const Message = ({sender, message}) => {
+const Message = ({post}) => {
   return (
     <View style={styles.messageContainer}>
       <Image style={styles.logo} source={NeuroLogo} />
       <View style={styles.messageBox}>
-        <Text style={styles.sender}>{sender}</Text>
-        <Text>{message}</Text>
+        <Text style={styles.sender}>{post.sender}</Text>
+        <Text>{post.text}</Text>
+        {post.attachment && <Text>{post.attachment}</Text>}
       </View>
     </View>
   );
 };
 
 const MessagingApp = () => {
+  const { posts } = useContext(PostsContext);
+
   return (
     <View>
       <View style={styles.header}>
         <Text style={styles.headerText}>General</Text>
       </View>
-      <Message sender="Doutor de tal" message="Hoje atendi uma criança e bla bla bla" />
-      <Message sender="Fulana de tal" message="Meu filho foi no médico e bla bla bla" />
+      {posts.map((post, index) => (
+        <Message key={index} post={post} />
+      ))}
     </View>
   );
-};
+}
+
+export default MessagingApp;

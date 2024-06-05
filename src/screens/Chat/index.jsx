@@ -22,3 +22,6 @@ const MessagingApp = () => {
     </View>
   );
 };
+
+export default MessagingApp;
+

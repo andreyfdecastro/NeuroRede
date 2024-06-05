@@ -1,9 +1,10 @@
-import { View, TextInput, TouchableOpacity, Text, Image } from 'react-native';
+import React, { useState } from 'react';
+import { View, TextInput, TouchableOpacity, Text, Image, Alert } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 import styles from './styles';
 import NeuroLogo from '../../../assets/neuroLogo.png'; 
 
-
-export default function RegistrationForm() {
+export function RegistrationForm() {
   const navigation = useNavigation();
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
@@ -15,6 +16,7 @@ export default function RegistrationForm() {
     Alert.alert('Bem-vindo!');
     navigation.navigate('Home');
   };
+
   return (
     <View style={styles.container}>
       <View style={styles.topBar}>
