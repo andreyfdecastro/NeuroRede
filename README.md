@@ -11,7 +11,7 @@ Para instalar o aplicativo, siga estas etapas:
 1. Clone o repositório: `git clone https://github.com/andreyfdecastro/NeuroRede.git`
 2. Entre no diretório do projeto: `cd seu-repositorio`
 3. Instale as dependências: `npm i`
-4. Inicie o servidor: `npm rin start`
+4. Inicie o servidor: `npx expo start`
 
 ## Uso
 
