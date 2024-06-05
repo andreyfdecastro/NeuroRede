@@ -1,68 +1,30 @@
-# React Native Expo Boilerplate
+# NeuroRede
 
-Este repositório serve como um boilerplate para iniciar projetos em React Native utilizando o Expo. Ele está configurado com três principais estratégias de navegação - Stack, Drawer e Bottom Tabs Navigation - e inclui um exemplo de passagem de dados entre telas para facilitar o desenvolvimento de aplicações mais complexas.
+## Descrição
 
-## Status do desenvolvimento
+Este é um aplicativo de mensagens simples construído com React Native. Ele permite que os usuários enviem e recebam mensagens em tempo real.
 
-- [x] Configuração do ambiente
-- [x] Estrutura de pastas
-- [x] Estrutura de navegação
-- [x] Exemplo de passagem de dados entre telas
+## Instalação
 
-## Iniciando o projeto
+Para instalar o aplicativo, siga estas etapas:
 
-Aqui estão as instruções detalhadas para configurar o ambiente de desenvolvimento e começar a trabalhar com este boilerplate em sua máquina local.
+1. Clone o repositório: `git clone https://github.com/andreyfdecastro/NeuroRede.git`
+2. Entre no diretório do projeto: `cd seu-repositorio`
+3. Instale as dependências: `npm i`
+4. Inicie o servidor: `npm rin start`
 
-### Pré-requisitos
+## Uso
 
-Para utilizar este boilerplate, é essencial ter o ambiente NodeJS/React Native já configurado. Caso ainda não tenha realizado essa configuração, siga as orientações disponíveis [neste link](https://www.notion.so/Windows-f715073fc7c446dbaaee2bc313f8741c) para preparar seu ambiente.
+Depois de iniciar o servidor, você pode abrir o aplicativo em um emulador ou em seu dispositivo físico. Para enviar uma mensagem, digite o texto no campo de entrada e pressione o botão "Enviar".
 
-### Configuração e Instalação
+## Contribuição
 
-1. **Fork do Repositório:** Primeiramente, faça um fork deste repositório para sua conta no GitHub.
+Contribuições são bem-vindas! Se você encontrou um bug ou tem uma sugestão de recurso, sinta-se à vontade para abrir uma issue. Se você quiser contribuir com o código, faça um fork do repositório e abra um pull request.
 
-2. **Clone Local:** Depois, clone o repositório forkado para sua máquina.
+## Testes
 
-3. **Instale as Dependências:** Entre na pasta do projeto e instale as dependências necessárias.
-
-4. **Inicie o Projeto:** Com as dependências instaladas, inicie o projeto.
-
-5. **Dispositivo ou Emulador:** Finalmente, abra o projeto em seu dispositivo físico ou em um emulador.
-
-## Estrutura de arquivos
-
-O projeto segue uma organização lógica de arquivos, facilitando a manutenção e a compreensão do código:
-
-```
-react-native-expo-boilerplate/
-├── src/
-│   ├── components/
-│   ├── data/
-│   ├── routes/
-│   ├── screens/
-└── App.jsx
-```
-
-## Tecnologias
-
-- [React Native](https://reactnative.dev/)
-- [Expo](https://expo.dev/)
-- [React Navigation](https://reactnavigation.org/)
-
-## Contribuindo
-
-Contribuições são sempre bem-vindas para melhorar o boilerplate. Veja como você pode contribuir:
-
-1. **Fork:** Inicie fazendo um fork do projeto.
-2. **Branch de Feature:** Crie uma branch para sua feature: `git checkout -b minha-feature`.
-3. **Commit:** Faça commits das suas alterações: `git commit -m "feat: minha feature"`.
-4. **Push:** Envie suas alterações para o GitHub: `git push origin minha-feature`.
-5. **Pull Request:** Abra um pull request para a branch principal.
+Para executar os testes, use o comando `npm test`.
 
 ## Licença
 
-Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## Contato
-
-Se você tiver alguma dúvida sobre o projeto, sinta-se à vontade para me contatar em [meu e-mail](mailto:dev.felipesantos@gmail.com) ou pelo meu [LinkedIn](https://www.linkedin.com/in/92felipesantos).
+Este projeto está licenciado sob a licença MIT.
